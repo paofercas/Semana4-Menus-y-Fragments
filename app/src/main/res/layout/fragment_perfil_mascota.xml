@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PerfilMascotaFragment">
+
+    <ImageView
+        android:id="@+id/imgRedonda"
+        android:layout_width="@dimen/imagen_redonda"
+        android:layout_height="@dimen/imagen_redonda"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/bordes_laterales"
+        android:layout_marginLeft="@dimen/bordes_laterales"
+        android:layout_marginTop="@dimen/borde_redondo"
+        android:layout_marginEnd="@dimen/bordes_laterales"
+        android:layout_marginRight="@dimen/bordes_laterales"
+        android:contentDescription="@string/icono"
+        android:src="@drawable/dog2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvNombreMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/bordes_laterales"
+        android:layout_marginLeft="@dimen/bordes_laterales"
+        android:layout_marginTop="@dimen/padding"
+        android:text="@string/nombre"
+        android:textSize="@dimen/letraIcono"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgRedonda">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreMascota">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMiFAB"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:contentDescription="@string/camera"
+        android:focusable="true"
+        app:backgroundTint="@color/AccentColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rvMascotas2"
+        app:srcCompat="@drawable/camara" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

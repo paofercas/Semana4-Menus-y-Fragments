@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/corner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardview"
+            android:background="@color/amarillo"
+            android:contentDescription="@string/mascota"
+            android:src="@drawable/dog2"></ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLikeMascota"
+                android:layout_width="@dimen/icono"
+                android:layout_height="@dimen/icono"
+                android:background="@drawable/bone"></Button>
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="@string/nombre"
+                android:textSize="@dimen/letraIcono"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/btnLikeMascota"
+                android:layout_toEndOf="@+id/btnLikeMascota"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txtTotalLike"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/hueso_amarillo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="@string/totalLikes"
+                android:textSize="@dimen/letraIcono"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icons8_dog_bone_100"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

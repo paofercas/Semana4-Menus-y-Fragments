@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="icono">icono</string>
+    <string name="titulo">Petagram</string>
+    <string name="likes">Favoritos</string>
+    <string name="mascota">Mascota</string>
+    <string name="nombre">Katty</string>
+    <string name="totalLikes">1</string>
+    <string name="menu_like">Like</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="camera">Camara</string>
+    <string name="mensaje">Puede tomar una foto</string>
+    <string name="titulo_Contacto">Formulario de Contacto </string>
+    <string name="nombre_propietario">Nombre</string>
+    <string name="email_propietario">Email</string>
+    <string name="Tema">Subject</string>
+    <string name="mensaje_Email">Mensaje</string>
+    <string name="enviar_Email">Enviar Email</string>
+    <string name="correo_empresa">contactopetagram@gmail.com</string>
+    <string name="password_correo">Petagram123</string>
+    <string name="desarrollador">Paola Castro</string>
+    <string name="pais">Ecuador</string>
+    <string name="fecha">28 de diciembre del 2020</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

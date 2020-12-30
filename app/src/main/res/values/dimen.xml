@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="elevationbar">4dp</dimen>
+    <dimen name="icono">24dp</dimen>
+    <dimen name="letraIcono">25sp</dimen>
+    <dimen name="margenderecho">30dp</dimen>
+    <dimen name="card_view">170dp</dimen>
+    <dimen name="card_view_detail">80dp</dimen>
+    <dimen name="corner">4dp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="cardview">250dp</dimen>
+    <dimen name="hueso_amarillo">30dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="borde_superior">20dp</dimen>
+    <dimen name="imagenAbout">80dp</dimen>
+    <dimen name="tituloAbout">30sp</dimen>
+    <dimen name="letramedia">15sp</dimen>
+    <dimen name="imagen_redonda">80dp</dimen>
+    <dimen name="borde_redondo">50dp</dimen>
+    <dimen name="bordes_laterales">160dp</dimen>
+</resources>
